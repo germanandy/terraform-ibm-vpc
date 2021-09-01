@@ -16,7 +16,7 @@ variable "create_vpn_gateway" {
 variable "name" {
   description = "Name of the VPN Gateway"
   type        = string
-  default     = null
+  default     = testgateway
 }
 
 variable "subnet" {
